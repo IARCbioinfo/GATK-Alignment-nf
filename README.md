@@ -1,2 +1,2 @@
-# align_preprocess
-Perform bwa alignment and pre-processing following GATK best practices
+# Alignment-GATK-BP-nfpreprocess
+Perform bwa alignment and pre-processing (realignment and recalibration) following GATK best practices
