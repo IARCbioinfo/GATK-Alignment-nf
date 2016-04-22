@@ -1,12 +1,20 @@
 # Alignment-GATK-BP-nf
 Performs bwa alignment and pre-processing (realignment and recalibration) following GATK best practices
+
 The whole pipeline is made up of 10 steps: 
-1.Alignment generating a sam file
-2.Conversion to bam and sorting
-3.Marking of duplicates
-4.Indexing of bam
-5. & 6. Local realignemnt around indels
-7. to 10. Bae quality score recalibration
+
+	1.Alignment generating a sam file
+
+	2.Conversion to bam and sorting
+
+	3.Marking of duplicates
+
+	4.Indexing of bam
+
+	5. & 6. Local realignemnt around indels
+
+	7. to 10. Bae quality score recalibration
+
 
 Before using the pipeline, specify in your config file the paths to the following files and softwares:
 
