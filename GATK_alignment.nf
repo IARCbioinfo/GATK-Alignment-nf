@@ -65,7 +65,6 @@ process creation_sam {
 	cpus 8
 	memory '12GB'
 	clusterOptions = params.cluster_options
-    	//clusterOptions = '-m cn12 -R "rusage[mem=12000]" -M 12000'// PUT NODES AS PARAM	
 input:
 	file pair from readPairs
 output:
