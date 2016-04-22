@@ -76,7 +76,7 @@ shell:
     	'''
 }
 
-////////// STEP 02 ################### Conversion to bam and sort
+////////// STEP 02 ################### Convert to bam and sort
 
 process creation_bam {
    	echo "creation_bam"
