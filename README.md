@@ -3,13 +3,13 @@ Performs bwa alignment and pre-processing (realignment and recalibration) follow
 
 The whole pipeline is made up of 10 steps: 
 
-		1.Alignment generating a sam file
+		1. Alignment generating a sam file
 
-		2.Conversion to bam and sorting
+		2. Conversion to bam and sorting
 
-		3.Marking of duplicates
+		3. Marking of duplicates
 
-		4.Indexing of bam
+		4. Indexing of bam
 
 		5. & 6. Local realignment around indels
 
