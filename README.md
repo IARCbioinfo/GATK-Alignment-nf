@@ -1,4 +1,4 @@
-# GATK-Alignment-BP-nf
+# GATK-Alignment-nf
 Performs bwa alignment and pre-processing (realignment and recalibration) following GATK best practices
 
 The whole pipeline is made up of 10 steps: 
